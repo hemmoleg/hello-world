@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Aufgabe Mastermind</title>
+        <link href="Content/master.css" rel="stylesheet" />
+        <script src="Scripts/mastermind.js"></script>
+    </head>
+<body>
+    <div id="Container">
+        <h2>Mastermind</h2>
+        <hr />
+        <div id="genrow">
+            <!-- Pins with hidden colors -->
+            <div id="pinGen1"></div>
+            <div id="pinGen2"></div>
+            <div id="pinGen3"></div>
+            <div id="pinGen4"></div>
+        </div>
+        <hr />
+        <div id="targetZone">
+            <div id="row10">
+                <div id="pin101"></div>
+                <div id="pin102"></div>
+                <div id="pin103"></div>
+                <div id="pin104"></div>
+                <div class="resultGrid">
+                    <div id="result101"></div>
+                    <div id="result102"></div>
+                    <div id="result103"></div>
+                    <div id="result104"></div>
+                </div>
+            </div>
+            <div id="row9">
+                <div id="pin91"></div>
+                <div id="pin92"></div>
+                <div id="pin93"></div>
+                <div id="pin94"></div>
+                <div class="resultGrid">
+                    <div id="result91"></div>
+                    <div id="result92"></div>
+                    <div id="result93"></div>
+                    <div id="result94"></div>
+                </div>
+            </div>
+            <div id="row8">
+                <div id="pin81"></div>
+                <div id="pin82"></div>
+                <div id="pin83"></div>
+                <div id="pin84"></div>
+                <div class="resultGrid">
+                    <div id="result81"></div>
+                    <div id="result82"></div>
+                    <div id="result83"></div>
+                    <div id="result84"></div>
+                </div>
+            </div>
+            <div id="row7">
+                <div id="pin71"></div>
+                <div id="pin72"></div>
+                <div id="pin73"></div>
+                <div id="pin74"></div>
+                <div class="resultGrid">
+                    <div id="result71"></div>
+                    <div id="result72"></div>
+                    <div id="result73"></div>
+                    <div id="result74"></div>
+                </div>
+            </div>
+            <div id="row6">
+                <div id="pin61"></div>
+                <div id="pin62"></div>
+                <div id="pin63"></div>
+                <div id="pin64"></div>
+                <div class="resultGrid">
+                    <div id="result61"></div>
+                    <div id="result62"></div>
+                    <div id="result63"></div>
+                    <div id="result64"></div>
+                </div>
+            </div>
+            <div id="row5">
+                <div id="pin51"></div>
+                <div id="pin52"></div>
+                <div id="pin53"></div>
+                <div id="pin54"></div>
+                <div class="resultGrid">
+                    <div id="result51"></div>
+                    <div id="result52"></div>
+                    <div id="result53"></div>
+                    <div id="result54"></div>
+                </div>
+            </div>
+            <div id="row4">
+                <div id="pin41"></div>
+                <div id="pin42"></div>
+                <div id="pin43"></div>
+                <div id="pin44"></div>
+                <div class="resultGrid">
+                    <div id="result41"></div>
+                    <div id="result42"></div>
+                    <div id="result43"></div>
+                    <div id="result44"></div>
+                </div>
+            </div>
+            <div id="row3">
+                <div id="pin31"></div>
+                <div id="pin32"></div>
+                <div id="pin33"></div>
+                <div id="pin34"></div>
+                <div class="resultGrid">
+                    <div id="result31"></div>
+                    <div id="result32"></div>
+                    <div id="result33"></div>
+                    <div id="result34"></div>
+                </div>
+            </div>
+            <div id="row2">
+                <div id="pin21"></div>
+                <div id="pin22"></div>
+                <div id="pin23"></div>
+                <div id="pin24"></div>
+                <div class="resultGrid">
+                    <div id="result21"></div>
+                    <div id="result22"></div>
+                    <div id="result23"></div>
+                    <div id="result24"></div>
+                </div>
+            </div>
+            <div id="row1">
+                <div id="pin11"></div>
+                <div id="pin12"></div>
+                <div id="pin13"></div>
+                <div id="pin14"></div>
+                <div class="resultGrid">
+                    <div id="result11"></div>
+                    <div id="result12"></div>
+                    <div id="result13"></div>
+                    <div id="result14"></div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="pinCodes">
+            <div class="pinCode1 draggable" data-code="1"></div>
+            <div class="pinCode2 draggable" data-code="2"></div>
+            <div class="pinCode3 draggable" data-code="3"></div>
+            <div class="pinCode4 draggable" data-code="4"></div>
+            <div class="pinCode5 draggable" data-code="5"></div>
+            <div class="pinCode6 draggable" data-code="6"></div>
+        </div>
+        <footer>
+            <button id="check" disabled="true">Eingabe prüfen</button>
+            <button id="new">Neues Spiel</button>
+        </footer>
+    </div>
+</body>
+</html>
